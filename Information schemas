@@ -1,0 +1,3 @@
+SELECT table_schema,table_name, column_name
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE UPPER(column_name) like '%BEN_FTR_ID%'
